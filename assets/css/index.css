@@ -1,0 +1,94 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;	
+}
+
+/* Complete Page Heading Font setting Section Start Here */
+h1{
+	font-family: 'Prociono', serif;
+}
+
+/* Loader Section Start Here */
+
+#loader{
+	width: 100%;
+	height: 100vh;
+	background: url('../img/loader.gif')
+	no-repeat center;
+	z-index: 99999;
+	
+	}
+
+	/*Navbar Settings Start Here*/
+#logo:hover{
+	color: #D401F5;
+}
+
+
+/* Blue Color Hover On Navbar*/
+
+#menu:hover{	
+	color: #2F88CB;
+	
+}
+
+#active_page a{
+	color: #D401F5;
+}
+
+/* Carousel Settings Section Start Here */
+
+.slide-2{
+	margin-bottom: 20px;
+	color: black;
+}
+
+/* Why Choose Us Setting Start Here*/
+
+.choose h1{
+	font-size: 50px;
+}
+.choose hr{
+	height:4px;
+	width: 150px;
+	
+}
+
+/* Service Process Start Here */
+.Service_heading hr{
+	height:4px;
+	width: 150px;
+}
+.fast_service{
+	background-color: #F7F7F7;
+}
+
+/*Repair And Support All */
+
+ .support{
+	background-image:linear-gradient(to right, rgba( 0, 0, 0, 1),rgba(0, 0, 0, 0.5)),url('../img/carousel4.jpg');
+	background-size: 100% 100%;
+	height: 50vh;
+	width: 100%;
+}  
+.support-text{
+	padding-top: 20px;
+
+}
+
+.support-text hr{
+	height: 4px;
+}
+
+/* Feedback Section Start Here */
+
+.feedback{
+	background-color: #F7F7F7;
+}
+
+.feedback-tittle hr{
+	height: 4px;
+	width: 150px;
+}
+

@@ -1,0 +1,58 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* Complete Page Heading Font setting Section Start Here */
+h1{
+	font-family: 'Prociono', serif;
+}
+
+/* Loader Section Start Here */
+
+#loader{
+	width: 100%;
+	height: 100vh;
+	background: url('../img/loader.gif')
+	no-repeat center;
+	z-index: 99999;
+	
+	}
+
+/* Navbar Setting Start Here */
+
+#logo:hover{
+	color: #D401F5;
+}
+#appoint a{
+	border:  2px solid #4CAF50;
+}
+#appoint a:hover{
+	background-color:#4CAF50;
+	color: white;	
+	border:  2px solid black;	
+}
+/* Blue Color Hover On Navbar*/
+
+#menu:hover{	
+	color: #2F88CB;
+	
+}
+
+#active_page a{
+	color: #D401F5;
+}
+
+.about_body hr{
+	width: 150px;
+	height: 4px;
+}
+
+/* Body Section Start Here */
+
+
+.about_bg{
+	background: #F7F7F7;
+}
+
